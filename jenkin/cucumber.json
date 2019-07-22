@@ -1,0 +1,85 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-07-22T09:28:11.198Z",
+        "line": 17,
+        "name": "Success",
+        "description": "",
+        "id": "title-of-your-feature;success",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 629100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I want to create an account",
+            "match": {
+              "location": "Purchase.i_want_to_create_an_account()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1781200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "i enter my data",
+            "match": {
+              "location": "Purchase.i_enter_my_data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "arunsiv",
+                  "asd617"
+                ]
+              },
+              {
+                "cells": [
+                  "John",
+                  "lknhj7"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I verify the account",
+            "match": {
+              "location": "Purchase.i_verify_the_account()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag3"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "classpath:cucumber_2/Log.feature",
+    "tags": []
+  }
+]
