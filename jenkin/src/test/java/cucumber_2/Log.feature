@@ -19,5 +19,4 @@ Feature: Title of your feature
     And i enter my data 
       | username | password |
       | arunsiv  | asd617   |
-      | John     | lknhj7   |
     Then I verify the account
